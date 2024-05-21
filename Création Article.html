@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Créer un Article</title>
+    <link rel="stylesheet" href="Création Article.css">
+</head>
+<body>
+    <header>
+        <h1>Créer votre Article ✍️</h1>
+    </header>
+    <main>
+        <section class="toolbox">
+            <button onclick="window.location.href='index.html'">Accueil 🏠</button>
+            <button onclick="document.execCommand('bold')">Gras <b>B</b></button>
+            <button onclick="document.execCommand('italic')">Italique <i>I</i></button>
+            <button onclick="document.execCommand('underline')">Souligner <u>U</u></button>
+            <button onclick="document.execCommand('backColor', false, 'yellow')">Surligner <span style="background-color: yellow;">Jaune</span></button>
+            <button onclick="document.execCommand('backColor', false, 'pink')">Surligner <span style="background-color: pink;">Rose</span></button>
+            <button onclick="document.execCommand('backColor', false, 'lightblue')">Surligner <span style="background-color: lightblue;">Bleu</span></button>
+            <select onchange="document.execCommand('fontName', false, this.value)">
+                <option value="Arial">Arial</option>
+                <option value="Courier New">Courier New</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Times New Roman">Times New Roman</option>
+                <option value="Verdana">Verdana</option>
+            </select>
+        </section>
+        <section class="editor">
+            <div contenteditable="true" class="text-editor">
+                Commencez à écrire votre article ici...
+            </div>
+            <button onclick="saveArticle()">Enregistrer l'article</button>
+            <p id="save-message"></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
