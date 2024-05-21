@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FF5733; /* Bleu Cornflower */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+section {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.separator {
+    width: 1px;
+    background-color: #F0F8FF; /* AliceBlue */
+}
+
+.inscription, .connexion {
+    background-color: #F0FFF0; /* HoneyDew */
+    border: 5px solid #00CED1; /* DarkTurquoise */
+    border-radius: 20px;
+}
+
+.image {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #FF4500; /* Orange Rougeâtre */
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    background-color: #FF0000; /* Rouge */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF4500; /* Orange Rougeâtre */
+}
+
+.error-message {
+    color: red;
+}
