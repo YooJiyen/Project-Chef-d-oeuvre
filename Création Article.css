@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8A2BE2; /* Bleu Violet */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.toolbox {
+    background-color: #FFD700; /* Or */
+    border: 2px solid #FFA500; /* Orange */
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.toolbox button, .toolbox select {
+    background-color: #FF6347; /* Tomate */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.toolbox button:hover, .toolbox select:hover {
+    background-color: #FF4500; /* Orange Rougeâtre */
+}
+
+.editor {
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.text-editor {
+    background-color: #F0F8FF; /* Bleu Alice */
+    border: 2px solid #4682B4; /* Bleu Acier */
+    border-radius: 10px;
+    padding: 20px;
+    min-height: 300px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.text-editor:focus {
+    outline: none;
+}
+
+button {
+    background-color: #8A2BE2; /* Bleu Violet */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4B0082; /* Indigo */
+}
+
+#save-message {
+    color: green;
+    margin-top: 10px;
+}
