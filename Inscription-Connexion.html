@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription / Connexion</title>
+    <link rel="stylesheet" href="Inscription-Connexion.css">
+</head>
+<body>
+    <header>
+        <h1>Inscription / Connexion</h1>
+    </header>
+    <main>
+        <section class="inscription">
+            <h2>Inscription</h2>
+            <form id="inscription-form">
+                <input type="text" id="username" placeholder="Nom d'utilisateur" required>
+                <input type="password" id="password" placeholder="Mot de passe" required>
+                <p></p>
+                <button type="submit">S'inscrire</button>
+                <p id="inscription-error" class="error-message"></p>
+            </form>
+            <img src="https://tse2.explicit.bing.net/th?id=OIP.yCgUtL5bJDrk-ZPkBX6GBgHaDB&pid=Api&P=0&h=180" alt="Inscription" class="image">
+        </section>
+        <div class="separator"></div>
+        <section class="connexion">
+            <h2>Connexion</h2>
+            <form id="connexion-form">
+                <input type="text" id="username-login" placeholder="Nom d'utilisateur" required>
+                <input type="password" id="password-login" placeholder="Mot de passe" required>
+                <p></p>
+                <button type="submit">Se connecter</button>
+                <p id="connexion-error" class="error-message"></p>
+            </form>
+            <img src="https://tse1.mm.bing.net/th?id=OIP.Bxbsjho3TMjembCI8cUx_wHaDw&pid=Api&P=0&h=180"Connexion" class="image">
+        </section>
+    </main>
+    <footer>
+        <button onclick="window.location.href='index.html'">Accueil</button>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
