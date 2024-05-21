@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFD700; /* Or */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.basket-ball {
+    background-color: #87CEFA; /* Bleu Ciel Clair */
+    border: 5px solid #4682B4; /* Bleu Acier */
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 600px;
+    text-align: justify;
+}
+
+.image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+footer {
+    background-color: #FFD700; /* Or */
+    text-align: center;
+    padding: 20px;
+}
+
+.back-button {
+    background-color: #FFA07A; /* Saumon Clair */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.back-button:hover {
+    background-color: #FF8C00; /* Orange Foncé */
+}
